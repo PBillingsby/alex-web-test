@@ -1,0 +1,25 @@
+{
+  "name": "alex-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "deploy": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PBillingsby",
+  "license": "ISC",
+  "dependencies": {
+    "browserless": "^9.7.0",
+    "fs": "^0.0.1-security",
+    "html-get": "^2.9.23",
+    "open": "^8.4.0",
+    "puppeteer": "^19.2.2",
+    "sharp": "^0.31.1",
+    "warp-contracts": "^1.2.13"
+  },
+  "devDependencies": {
+    "@bundlr-network/client": "^0.9.0"
+  }
+}
